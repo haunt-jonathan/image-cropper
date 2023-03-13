@@ -1,0 +1,10 @@
+.cita-cropper-field .form-group.field.uploadfield {
+    padding: 0;
+}
+
+.cita-cropper-field .cita-cropper img {
+    display: block;
+    max-width: none;
+    width: 100%;
+    height: auto;
+}

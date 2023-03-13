@@ -1,0 +1,23 @@
+{
+    "name": "haunt-jonathan/image-cropper",
+    "description": "CitaNZ's image cropper for SilverStripe 4, with versioning",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/haunt-jonathan/image-cropper",
+    "license": "MIT",
+    "keywords": ["cropperjs", "image cropper", "cropper tool","silverstripe image cropper"],
+    "authors": [
+        {
+            "name": "Leo Chen",
+            "homepage": "https://www.leochen.co.nz"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.0"
+    },
+    "extra": {
+        "expose": [
+            "client/css",
+            "client/js"
+        ]
+    }
+}

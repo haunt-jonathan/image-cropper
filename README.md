@@ -4,7 +4,7 @@ It's a continious development of Salted Herring's Cropper Field for SilverStripe
 ### Usage
 1. Install
   ```
-  composer require cita/image-cropper
+  composer require haunt-jonathan/image-cropper
   ```
 
 2. /dev/build?flush=all
@@ -50,5 +50,5 @@ If you are using SS's S3 assets module to store your images, you may also want t
 ```
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
-    - 'resources/vendor/cita/image-cropper/client/js/s3-workaround.js'
+    - 'resources/vendor/haunt-jonathan/image-cropper/client/js/s3-workaround.js'
 ```

@@ -130,9 +130,9 @@ class CitaCroppableImage extends DataObject
      */
     public function getCMSFields()
     {
-        Requirements::css('cita/image-cropper: client/js/cropperjs/dist/cropper.min.css');
-        Requirements::javascript('cita/image-cropper: client/js/cropperjs/dist/cropper.min.js');
-        Requirements::javascript('cita/image-cropper: client/js/cita-cropper.js');
+        Requirements::css('haunt-jonathan/image-cropper: client/js/cropperjs/dist/cropper.min.css');
+        Requirements::javascript('haunt-jonathan/image-cropper: client/js/cropperjs/dist/cropper.min.js');
+        Requirements::javascript('haunt-jonathan/image-cropper: client/js/cita-cropper.js');
 
         $fields = parent::getCMSFields();
         $fields->removeByName([

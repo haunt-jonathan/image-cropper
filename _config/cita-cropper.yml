@@ -10,12 +10,12 @@ SilverStripe\Assets\Storage\DBFile:
 
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - cita/image-cropper:client/js/cropperjs/dist/cropper.min.css
-    - cita/image-cropper:client/css/cita-cropper.css
+    - haunt-jonathan/image-cropper:client/js/cropperjs/dist/cropper.min.css
+    - haunt-jonathan/image-cropper:client/css/cita-cropper.css
   extra_requirements_javascript:
-    - cita/image-cropper:client/js/cropperjs/dist/cropper.min.js
-    - cita/image-cropper:client/js/cita-cropper.js
+    - haunt-jonathan/image-cropper:client/js/cropperjs/dist/cropper.min.js
+    - haunt-jonathan/image-cropper:client/js/cita-cropper.js
 
 # SilverStripe\Admin\LeftAndMain:
 #   extra_requirements_javascript:
-#     - 'resources/vendor/cita/image-cropper/client/js/s3-workaround.js'
+#     - 'resources/vendor/haunt-jonathan/image-cropper/client/js/s3-workaround.js'

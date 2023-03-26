@@ -1,5 +1,5 @@
 {
-    "name": "cita/image-cropper",
+    "name": "haunt-jonathan/image-cropper",
     "description": "CitaNZ's image cropper for SilverStripe 4, with versioning",
     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/haunt-jonathan/image-cropper",
